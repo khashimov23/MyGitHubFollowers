@@ -1,5 +1,4 @@
 # MyGitHubFollowers
-# Git-Followers-iOS-App
 
 # Overview:
 
