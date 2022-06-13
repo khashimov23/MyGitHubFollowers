@@ -1,5 +1,5 @@
 //
-//  GFItemInfoV.swift
+//  GFItemsCardVC.swift
 //  MyGHFollowers
 //
 //  Created by Shavkat Khoshimov on 22/05/22.
@@ -13,7 +13,7 @@ protocol ItemInfoVCDelegate: AnyObject {
     func didTapGetFollowers(for user: User)
 }
 
-class GFItemInfoVC: UIViewController {
+class GFItemsCardVC: UIViewController {
 
     let stackView = UIStackView()
     let itemInfoViewOne = GFItemInfoView()

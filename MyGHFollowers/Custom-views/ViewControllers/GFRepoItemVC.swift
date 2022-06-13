@@ -12,7 +12,7 @@ protocol GFRepoItemVCDelegate: AnyObject {
     func didTapGitHubPRofile(for user: User)
 }
 
-class GFRepoItemVC: GFItemInfoVC {
+class GFRepoItemVC: GFItemsCardVC {
     
     weak var delegate: GFRepoItemVCDelegate!
     
